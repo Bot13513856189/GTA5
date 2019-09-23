@@ -6,9 +6,9 @@ const prefix = "$";
 
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Brodcast Bot`);
+      console.log(`Bot`);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Brodcast Bot ' `);
+      console.log(`ON ${client.guilds.size} Servers '      Bot ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
 client.user.setGame(` G2 RolePlay`,"http://twitch.tv/Death Shop")
