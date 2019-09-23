@@ -393,7 +393,7 @@ client.on('message', message => {
             message.channel.send({embed: {
                 color: 3447003,
                 author: {
-                  name: '3bker Community ©\'s translator',
+                  name: '𝐆𝟐 𝐑𝐎𝐋𝐄𝐏𝐋𝐀𝐘 ©\'s translator',
                   icon_url: client.user.avatarURL
                 },
                 fields: [{
@@ -404,7 +404,7 @@ client.on('message', message => {
                 timestamp: new Date(),
                 footer: {
                   icon_url: client.user.avatarURL,
-                  text: "3bker Community ©"
+                  text: "𝐆𝟐 𝐑𝐎𝐋𝐄𝐏𝐋𝐀𝐘 ©"
                 }
             }}
             )
@@ -743,7 +743,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : 3bker")
+     .setFooter("By : 𝐆𝟐 𝐑𝐎𝐋𝐄𝐏𝐋𝐀𝐘")
                                                 
 
 message.channel.send(embed);
@@ -784,11 +784,11 @@ message.react("?")
  }}});
  client.on('message', message => {
   if(!message.channel.guild) return;
-if(message.content.startsWith('abc')) {
+if(message.content.startsWith('$bc')) {
 if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
 if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
-let copy = "3bker Community ©";
+let copy = "𝐆𝟐 𝐑𝐎𝐋𝐄𝐏𝐋𝐀𝐘 ©";
 let request = `Requested By ${message.author.username}`;
 if (!args) return message.reply('**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**');message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟ \nمحتوى البرودكاست:** \` ${args}\``).then(msg => {
 msg.react('✅')
